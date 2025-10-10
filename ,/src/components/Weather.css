@@ -1,0 +1,119 @@
+.weather {
+    background-image: linear-gradient(45deg, #49a09d, #1c0081);
+    width: auto;
+    height: auto;
+    place-self: center;
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 20px rgb(57, 54, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.search-bar{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search-bar input{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+    background: #ebfffc;
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.search-bar img{
+    cursor:pointer;
+    border-radius:50%;
+    
+}
+@keyframes floatWeatherIcon {
+    0% { transform: translateY(0);}
+    50% { transform: translateY(-15px);}
+    100% { transform: translateY(0);}
+}
+.weather-icon{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    background-image: transparent;
+    animation: floatWeatherIcon 3s ease-in-out infinite;
+}
+.weather h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #fff;
+}
+.humidity, .wind, .rain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.humidity, .wind img, .rain img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.weather-data{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #000;
+    font-family: sans-serif;
+    
+}
+.wind-speed.icon{
+    width:70px;
+    animation: windSway 2s ease-in-out infinite;
+}
+.value{
+    font-size: 14px;
+    display: block;
+}
+.icon{
+    display: block;
+
+}
+@keyframes dripBounce{
+    0% { transform: translateY(0);}
+    50% {transform: translateY( 5px);}
+    100% {transform: translateY(0);}
+}
+.humidity.icon{
+    animation: dripBounce 1.5s ease-in-out infinite;
+}
+
+@keyframes windSway{
+    0% { transform: rotate(0deg);}
+    25% {transform: rotate(5deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.wind-speed icon{
+    animation: windSway 2s ease-in-out infinite;
+}
+
+.temperature{
+    font-size: 50px;
+    
+}
+.location{
+    font-size: 30px;
+}
+.humidity.icon{
+    width: 90px;
+    height: 90px;
+}
