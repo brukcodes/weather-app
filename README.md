@@ -21,15 +21,21 @@ A simple and user-friendly web application that displays current weather informa
 
 1. Clone the repository:
 
-   ```bash
+   `bash`
    git clone https://github.com/brukcodes/weather-app.git
    cd weather-app
+
+   ```
+
    ```
 
 2. Install dependencies:
 
-   ```bash
+   ``bash`
    npm install
+
+   ```
+
    ```
 
 3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
@@ -41,8 +47,11 @@ A simple and user-friendly web application that displays current weather informa
 
 4. Start the application:
 
-   ```bash
+   `bash`
    npm start
+
+   ```
+
    ```
 
 5. Visit `http://localhost:3000` in your browser.
