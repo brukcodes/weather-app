@@ -1,85 +1,94 @@
 # Weather App
 
-A simple and user-friendly web application that displays current weather information for any city worldwide. Powered by [OpenWeatherMap API](https://openweathermap.org/api).
+> Simple web app to fetch and display real-time weather data for any city.
+> Powered by OpenWeatherMap API.
 
-## Features
+---
 
-- Search for weather by city name
-- Displays current temperature, weather condition, humidity, and wind speed
-- Clean and responsive UI
-- Error handling for invalid locations
-- (Optional) 5-day forecast
+[ FEATURES ]
 
-## Getting Started
+- Search weather by city name
+- Displays:
+  • Temperature
+  • Weather condition
+  • Humidity
+  • Wind speed
+- Responsive UI
+- Handles invalid city errors
+- Optional: 5-day forecast
 
-### Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (if using React, Vue, or similar frameworks)
-- An API key from [OpenWeatherMap](https://openweathermap.org/api)
+[ REQUIREMENTS ]
 
-### Installation
+- Node.js installed
+- OpenWeatherMap API key
 
-1. Clone the repository:
+---
 
-   `bash`
-   git clone https://github.com/brukcodes/weather-app.git
-   cd weather-app
+[ SETUP ]
 
-   ```
+# Clone repo
 
-   ```
+git clone https://github.com/brukcodes/weather-app.git
+cd weather-app
 
-2. Install dependencies:
+# Install dependencies
 
-   ``bash```
-   npm install
+npm install
 
-   ```
+# Create environment file
 
-   ```
+touch .env
 
-3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+# Add your API key inside .env
 
-   ````
-   REACT_APP_WEATHER_API_KEY=ccbdda41acb9d9b1153c0e456cec4bb7   ```
+REACT_APP_WEATHER_API_KEY=your_api_key_here
 
-   ````
+# Start the app
 
-4. Start the application:
+npm start
 
-   `bash```
-   npm start
+# Open in browser
 
-   ```
+http://localhost:3000
 
-   ```
+---
 
-5. Visit `http://localhost:3000` in your browser.
+[ USAGE ]
 
-## Usage
+1. Enter a city name
+2. Press ENTER or click "Search"
+3. View weather details
 
-1. Enter the name of a city in the search bar.
-2. Press "Search" or hit Enter.
-3. View the current weather details and forecast.
+---
 
-## Built With
+[ STACK ]
 
-- [React](https://reactjs.org/)
-- [OpenWeatherMap API](https://openweathermap.org/api)
+- React
+- OpenWeatherMap API
 - CSS
 
-## Contributing
+---
 
-Contributions are welcome! Please open an issue or submit a pull request.
+[ CONTRIBUTING ]
 
-## License
+1. Fork the repo
+2. Create a branch
+3. Commit changes
+4. Open Pull Request
 
-This project is licensed under the MIT License.
+---
 
-## Acknowledgments
+[ LICENSE ]
 
-```
+MIT License
 
-- [OpenWeatherMap](https://openweathermap.org/).
-- [Unsplash](https://unsplash.com/) for any background images.
-```
+---
+
+[ NOTES ]
+
+- Do NOT commit your .env file
+- Keep API keys private
+
+---
