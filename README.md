@@ -10,7 +10,6 @@ A simple and user-friendly web application that displays current weather informa
 - Error handling for invalid locations
 - (Optional) 5-day forecast
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -21,21 +20,27 @@ A simple and user-friendly web application that displays current weather informa
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/brukcodes/weather-app.git
    cd weather-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
-   ```
+
+   ````
    REACT_APP_WEATHER_API_KEY=ccbdda41acb9d9b1153c0e456cec4bb7   ```
 
+   ````
+
 4. Start the application:
+
    ```bash
    npm start
    ```
@@ -50,9 +55,9 @@ A simple and user-friendly web application that displays current weather informa
 
 ## Built With
 
-- [React](https://reactjs.org/) 
+- [React](https://reactjs.org/)
 - [OpenWeatherMap API](https://openweathermap.org/api)
-- CSS 
+- CSS
 
 ## Contributing
 
@@ -64,5 +69,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- [OpenWeatherMap](https://openweathermap.org/)
-- [Unsplash](https://unsplash.com/) for any background images
+- [OpenWeatherMap](https://openweathermap.org/).
+- [Unsplash](https://unsplash.com/) for any background images.
