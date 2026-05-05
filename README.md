@@ -2,6 +2,7 @@
 
 > Simple web app to fetch and display real-time weather data for any city.
 > Powered by OpenWeatherMap API.
+> Made by Bruk Gentet (brukcodes).
 
 ---
 
@@ -15,7 +16,7 @@
   • Wind speed
 - Responsive UI
 - Handles invalid city errors
-- Optional: 5-day forecast
+- 5+ day forecast
 
 ---
 
