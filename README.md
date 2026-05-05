@@ -31,7 +31,7 @@ A simple and user-friendly web application that displays current weather informa
 
 2. Install dependencies:
 
-   ``bash`
+   ``bash```
    npm install
 
    ```
@@ -47,7 +47,7 @@ A simple and user-friendly web application that displays current weather informa
 
 4. Start the application:
 
-   `bash`
+   `bash```
    npm start
 
    ```
@@ -78,5 +78,8 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
+```
+
 - [OpenWeatherMap](https://openweathermap.org/).
 - [Unsplash](https://unsplash.com/) for any background images.
+```
