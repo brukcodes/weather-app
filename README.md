@@ -8,6 +8,8 @@
 
 [ FEATURES ]
 
+```
+
 - Search weather by city name
 - Displays:
   • Temperature
@@ -18,12 +20,17 @@
 - Handles invalid city errors
 - 5+ day forecast
 
+```
+
 ---
 
 [ REQUIREMENTS ]
 
+```
+
 - Node.js installed
 - OpenWeatherMap API key
+```
 
 ---
 
