@@ -71,6 +71,7 @@ const Weather = () => {
             }
           }}
         />
+        //
         <img
           src="https://icons.iconarchive.com/icons/alecive/flatwoken/128/Apps-Search-And-Replace-icon.png"
           width="50"
@@ -81,6 +82,7 @@ const Weather = () => {
       </div>
       {weatherData ? (
         <>
+          //
           <img src={weatherData.icon} alt="" className="weather-icon" />
           <p className="temperature"> {weatherData.temperature}°C</p>
           <p className="location">{weatherData.location}</p>
@@ -107,5 +109,7 @@ const Weather = () => {
     </div>
   );
 };
+//
 
 export default Weather;
+//
