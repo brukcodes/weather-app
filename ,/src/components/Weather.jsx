@@ -29,7 +29,7 @@ const Weather = () => {
     "50d": "https://openweathermap.org/img/w/50d.png",
     "50n": "https://openweathermap.org/img/w/50n.png",
   };
-
+  //
   const search = async (city) => {
     try {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
@@ -53,7 +53,7 @@ const Weather = () => {
       setWeatherData(false);
     }
   };
-
+  //
   useEffect(() => {
     search("london");
   }, []);
