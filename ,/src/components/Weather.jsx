@@ -52,7 +52,7 @@ const Weather = () => {
       console.log(error);
       setWeatherData(false);
     }
-  };
+  }; //
   //
   useEffect(() => {
     search("london");
