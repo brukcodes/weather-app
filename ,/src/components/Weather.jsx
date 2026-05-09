@@ -38,7 +38,7 @@ const Weather = () => {
       if (!res.ok) {
         alert(data.message);
         return;
-      }
+      } //
       console.log(data);
       const icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`;
       setWeatherData({
