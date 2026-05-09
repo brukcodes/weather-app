@@ -4,7 +4,7 @@ import wind from "../assets/wind.png";
 import humidity from "../assets/humidity.png";
 import sun from "../assets/sun.png";
 import hum from "../assets/humidity1.png";
-
+//
 const Weather = () => {
   const inputRef = useRef();
   const [weatherData, setWeatherData] = useState(false);
