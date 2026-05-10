@@ -71,7 +71,7 @@ const Weather = () => {
             }
           }}
         />
-        //
+        // //
         <img
           src="https://icons.iconarchive.com/icons/alecive/flatwoken/128/Apps-Search-And-Replace-icon.png"
           width="50"
