@@ -100,7 +100,7 @@ const Weather = () => {
               <span className="label">wind speed</span>
             </div>
           </div>
-        </>
+        </> //
       ) : (
         <>
           <p>No weather data available</p>
