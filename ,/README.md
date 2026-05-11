@@ -12,7 +12,10 @@ Currently, two official plugins are available:
 The React Compiler is not enabled in this template by default due to its impact on development and build performance.  
 To enable it, refer to the official documentation:
 
+//
+
 - https://react.dev/learn/react-compiler/installation
+  //
 
 ## Expanding the ESLint Configuration
 
